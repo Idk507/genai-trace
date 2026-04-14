@@ -1,0 +1,3 @@
+test_id,name,status,module,functionality,timestamp,duration_ms,message,error,detail.avg_rating,detail.count,detail.total_turns,detail.user_turns
+cb695d9a_14,feedback,pass,intelligence.feedback,intelligence,2026-04-05T09:55:40.604654,0.12373924255371094,,,3.5,2,,
+cb695d9a_15,conversation,pass,intelligence.conversation,intelligence,2026-04-05T09:55:40.611920,7.238149642944336,,,,,4,2
