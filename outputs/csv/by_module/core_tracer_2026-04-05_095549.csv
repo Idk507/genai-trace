@@ -1,0 +1,2 @@
+test_id,name,status,module,functionality,timestamp,duration_ms,message,error,detail.span_id,detail.span_type
+cb695d9a_0,tracer_span,pass,core.tracer,core,2026-04-05T09:55:40.306088,0.07295608520507812,,,5d11cc2fea070704,llm
