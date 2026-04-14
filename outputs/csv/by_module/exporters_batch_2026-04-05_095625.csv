@@ -1,0 +1,2 @@
+test_id,name,status,module,functionality,timestamp,duration_ms,message,error,detail.buffer_size,detail.items
+f464b0dc_20,batch_exporter,pass,exporters.batch,exporters,2026-04-05T09:56:14.257858,4.118919372558594,,,5,"[{'id': 0}, {'id': 1}, {'id': 2}, {'id': 3}, {'id': 4}]"
