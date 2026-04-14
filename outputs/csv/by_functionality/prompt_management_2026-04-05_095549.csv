@@ -1,0 +1,4 @@
+test_id,name,status,module,functionality,timestamp,duration_ms,message,error,detail.rendered,detail.template,detail.variant
+cb695d9a_16,prompt_registry,pass,prompt_management.registry,prompt_management,2026-04-05T09:55:40.628741,16.76774024963379,,,Hello World!,Hello {{name}}!,
+cb695d9a_17,ab_testing,pass,prompt_management.ab_testing,prompt_management,2026-04-05T09:55:40.638344,9.559154510498047,,,,,B
+cb695d9a_18,playground,pass,prompt_management.playground,prompt_management,2026-04-05T09:55:40.641483,3.0927658081054688,,,Hello {Test}!,,
