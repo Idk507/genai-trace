@@ -1,0 +1,7 @@
+trace_id,span_id,parent_span_id,root_span_id,name,span_type,start_time,end_time,duration_ms,status,status_message,prompt_name,prompt_version,experiment_id,variant_id,injection_detected,injection_type,attr.service.name,attr.service.environment,attr.service.version
+fb6512269b924d4aba5d860f81d28f37,5d11218f16bc43a9,,5d11218f16bc43a9,calculator,tool,2026-04-05T09:54:56.626903,2026-04-05T09:54:56.626974,0.07100000000000001,ok,,,,,,False,,complete-test,development,0.0.0
+28dd95a703994905bb80e09ca10bde91,5d1121905df93081,,5d1121905df93081,tool_test,tool,2026-04-05T09:54:56.627203,2026-04-05T09:54:56.627209,0.006,ok,,,,,,False,,complete-test,development,0.0.0
+65b514b7634e4bbebc48412aac922e09,5d11cc2fdd051f2e,,5d11cc2fdd051f2e,calculator,tool,2026-04-05T09:55:40.306518,2026-04-05T09:55:40.306575,0.057,ok,,,,,,False,,complete-test,development,0.0.0
+605952c9c1f947798e3f8cdb06cba798,5d11cc2f28b77705,,5d11cc2f28b77705,tool_test,tool,2026-04-05T09:55:40.306798,2026-04-05T09:55:40.306803,0.005,ok,,,,,,False,,complete-test,development,0.0.0
+4b5f0fdd39f4486e970464b24d483133,5d124f32c7b91af2,,5d124f32c7b91af2,calculator,tool,2026-04-05T09:56:13.845184,2026-04-05T09:56:13.845293,0.10900000000000001,ok,,,,,,False,,complete-test,development,0.0.0
+efd19b90e59a468cb56fa2bae370edce,5d124f32b9f946c4,,5d124f32b9f946c4,tool_test,tool,2026-04-05T09:56:13.845759,2026-04-05T09:56:13.845769,0.01,ok,,,,,,False,,complete-test,development,0.0.0
