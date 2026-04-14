@@ -1,0 +1,5 @@
+test_id,name,status,module,functionality,timestamp,duration_ms,message,error,detail.actual_rate,detail.agent_trace,detail.base_rate,detail.llm_trace,detail.span_id,detail.span_type,detail.tool_trace,detail.trace,detail.trace_agent,detail.trace_llm,detail.trace_tool
+f464b0dc_0,tracer_span,pass,core.tracer,core,2026-04-05T09:56:13.844207,0.09965896606445312,,,,,,,5d124f312c022af4,llm,,,,,
+f464b0dc_1,decorators,pass,core.decorators,core,2026-04-05T09:56:13.845427,1.1608600616455078,,,,,,,,,,8,Done: Task,Response: Hello,50
+f464b0dc_2,context_managers,pass,core.context_manager,core,2026-04-05T09:56:13.845864,0.3943443298339844,,,,ad5052b6ad0b459b930037977c1eb72f,,2fb3568c81294a9f8f28b1de100414c9,,,efd19b90e59a468cb56fa2bae370edce,,,,
+f464b0dc_3,sampling,pass,core.sampling,core,2026-04-05T09:56:13.847331,1.4226436614990234,,,0.45,,0.5,,,,,,,,
