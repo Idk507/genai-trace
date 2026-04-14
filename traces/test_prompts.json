@@ -1,0 +1,13 @@
+{
+  "test": [
+    {
+      "name": "test",
+      "version": "1.0.0",
+      "template": "Hello {{name}}!",
+      "labels": [],
+      "metadata": {},
+      "created_at": "2026-04-04T19:34:51.256785",
+      "template_hash": "0ac46560e041"
+    }
+  ]
+}
