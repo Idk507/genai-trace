@@ -1,0 +1,2 @@
+test_id,name,status,module,functionality,timestamp,duration_ms,message,error,detail.error_rate,detail.latency_mean,detail.throughput_tps
+f2223b36_6,metrics,pass,telemetry.metrics,telemetry,2026-04-05T09:54:56.891867,18.68748664855957,,,0.2,137.5,450000.0
