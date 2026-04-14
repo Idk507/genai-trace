@@ -1,0 +1,2 @@
+test_id,name,status,module,functionality,timestamp,duration_ms,message,error,detail.model,detail.response,detail.tokens
+f2223b36_21,azure_openai,pass,api.azure_openai,api_integration,2026-04-05T09:55:02.771146,5709.177255630493,,,gpt-4.1,4,21
