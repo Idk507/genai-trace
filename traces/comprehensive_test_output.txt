@@ -1,0 +1,127 @@
+GenAI-Traces Comprehensive Module Test
+============================================================
+Started: 2026-04-05T01:04:48.387928
+
+
+============================================================
+1. CORE MODULES
+============================================================
+[PASS] core.tracer
+[PASS] core.span
+[PASS] core.context
+[PASS] core.decorators
+[PASS] core.context_manager
+[PASS] core.sampling
+[PASS] core.types
+
+============================================================
+2. CONFIG MODULES
+============================================================
+[PASS] config.settings
+[PASS] config.validators
+
+============================================================
+3. INSTRUMENTATION MODULES
+============================================================
+[PASS] instrumentation.base
+[PASS] instrumentation.llm
+[PASS] instrumentation.frameworks
+[PASS] instrumentation.agents
+[PASS] instrumentation.retrieval
+[PASS] instrumentation.tools
+
+============================================================
+4. TELEMETRY MODULES
+============================================================
+[PASS] telemetry.tokens.counter
+[PASS] telemetry.tokens.estimator
+[PASS] telemetry.tokens.streaming
+[PASS] telemetry.cost.estimator
+[PASS] telemetry.cost.pricing_table
+[PASS] telemetry.cost.aggregator
+[PASS] telemetry.metrics.latency
+[PASS] telemetry.metrics.throughput
+[PASS] telemetry.metrics.error_rate
+[PASS] telemetry.anomaly.detector
+[PASS] telemetry.anomaly.baselines
+[PASS] telemetry.environment
+
+============================================================
+5. INTELLIGENCE MODULES
+============================================================
+[PASS] intelligence.feedback
+[PASS] intelligence.evaluation
+[PASS] intelligence.annotation
+[PASS] intelligence.conversation
+[PASS] intelligence.quality
+
+============================================================
+6. PROMPT MANAGEMENT MODULES
+============================================================
+[PASS] prompt_management.registry
+[PASS] prompt_management.versioning
+[PASS] prompt_management.ab_testing
+[PASS] prompt_management.experiment
+[PASS] prompt_management.playground
+
+============================================================
+7. SECURITY MODULES
+============================================================
+[PASS] security.injection_detector
+[PASS] security.output_guardrail
+[PASS] security.guardrail_chain
+[PASS] security.output_filter
+[PASS] security.domain_enforcer
+[PASS] security.red_team
+
+============================================================
+8. PRIVACY MODULES
+============================================================
+[PASS] privacy.pii_detector
+[PASS] privacy.detection.patterns
+[PASS] privacy.redactor
+[PASS] privacy.redaction.strategies
+[PASS] privacy.redaction.hashing
+[PASS] privacy.encryption
+[PASS] privacy.compliance.retention
+[PASS] privacy.compliance.audit
+
+============================================================
+9. EXPORTER MODULES
+============================================================
+[PASS] exporters.console
+[PASS] exporters.json
+[PASS] exporters.batch
+[PASS] exporters.finetune
+[PASS] exporters.json.rotation
+[PASS] exporters.json.compression
+[PASS] exporters.database
+[PASS] exporters.otel
+[PASS] exporters.cloud
+[PASS] exporters.webhook
+
+============================================================
+10. ADDITIONAL MODULES
+============================================================
+[PASS] multimodal
+[PASS] router
+[PASS] cache
+[PASS] plugins
+[PASS] cli
+[PASS] utils
+
+============================================================
+TEST SUMMARY
+============================================================
+
+Total Tests: 67
+Passed: 67
+Failed: 0
+Pass Rate: 100.0%
+
+Results saved to: traces\comprehensive_test_results.json
+
+============================================================
+ALL TESTS PASSED!
+GenAI-Traces implementation is complete and functional.
+============================================================
