@@ -1,0 +1,58 @@
+# GenAI-Traces Configuration Schema
+# Default configuration with all options documented
+
+# Service identification
+service_name: "my-ai-app"  # Required: Name of your service
+environment: "development"  # development | staging | production | test
+
+# Sampling configuration
+sample_rate: 1.0  # 0.0 to 1.0 - fraction of traces to sample
+enable_adaptive_sampling: true  # Prioritize errors and slow requests
+
+# Feature flags
+enable_pii_detection: true  # Scan for PII in prompts/completions
+enable_cost_tracking: true  # Calculate token costs
+enable_prompt_capture: true  # Store full prompts (disable for privacy)
+enable_completion_capture: true  # Store full completions
+enable_guardrails: false  # Enable security guardrails
+
+# Security settings
+guardrail_action: "flag"  # block | flag | log
+injection_detection_threshold: 0.8  # 0.0 to 1.0
+
+# Performance settings
+batch_size: 100  # Spans per export batch
+flush_interval_ms: 5000  # Max time between flushes
+max_queue_size: 10000  # Max pending spans before backpressure
+
+# Privacy settings
+pii_redaction_strategy: "template"  # template | partial | hash
+encrypt_sensitive_fields: false  # Enable field-level encryption
+
+# Retention settings
+retention_days: 90  # Days to retain trace data
+pii_retention_days: 30  # Shorter retention for PII data
+
+# Exporter configuration
+exporters:
+  - type: "json"
+    output_path: "./traces"
+    rotation: "daily"  # daily | hourly | size
+    max_size_mb: 100
+    compress: true
+
+# Anomaly detection
+anomaly_detection:
+  enabled: true
+  window_size: 200
+  z_threshold: 3.0
+  alert_channels:
+    - type: "log"
+
+# Evaluation settings
+evaluation:
+  enabled: false
+  evaluators:
+    - relevance
+    - toxicity
+  async_evaluation: true
