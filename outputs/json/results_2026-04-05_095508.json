@@ -1,0 +1,1439 @@
+{
+  "summary": {
+    "session_id": "f2223b36",
+    "session_start": "2026-04-05T09:54:56.624022",
+    "total_tests": 23,
+    "passed": 22,
+    "failed": 1,
+    "skipped": 0,
+    "errors": 0,
+    "pass_rate": 0.9565217391304348,
+    "modules_tested": 23,
+    "functionalities_tested": 8
+  },
+  "modules": {
+    "core.tracer": {
+      "module": "core.tracer",
+      "total_tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0,
+      "pass_rate": 1.0,
+      "tests": [
+        {
+          "test_id": "f2223b36_0",
+          "name": "tracer_span",
+          "status": "pass",
+          "module": "core.tracer",
+          "functionality": "core",
+          "timestamp": "2026-04-05T09:54:56.626169",
+          "duration_ms": 0.07939338684082031,
+          "message": null,
+          "details": {
+            "span_id": "5d11218fc4f7dc7d",
+            "span_type": "llm"
+          },
+          "error": null
+        }
+      ]
+    },
+    "core.decorators": {
+      "module": "core.decorators",
+      "total_tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0,
+      "pass_rate": 1.0,
+      "tests": [
+        {
+          "test_id": "f2223b36_1",
+          "name": "decorators",
+          "status": "pass",
+          "module": "core.decorators",
+          "functionality": "core",
+          "timestamp": "2026-04-05T09:54:56.627033",
+          "duration_ms": 0.8256435394287109,
+          "message": null,
+          "details": {
+            "trace": 8,
+            "trace_llm": "Response: Hello",
+            "trace_agent": "Done: Task",
+            "trace_tool": 50
+          },
+          "error": null
+        }
+      ]
+    },
+    "core.context_manager": {
+      "module": "core.context_manager",
+      "total_tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0,
+      "pass_rate": 1.0,
+      "tests": [
+        {
+          "test_id": "f2223b36_2",
+          "name": "context_managers",
+          "status": "pass",
+          "module": "core.context_manager",
+          "functionality": "core",
+          "timestamp": "2026-04-05T09:54:56.627253",
+          "duration_ms": 0.202178955078125,
+          "message": null,
+          "details": {
+            "llm_trace": "b87f8baf3c4a4a5a832d8a7c51d4e0e8",
+            "agent_trace": "325b70d24c084e23abb60fed7d9caa98",
+            "tool_trace": "28dd95a703994905bb80e09ca10bde91"
+          },
+          "error": null
+        }
+      ]
+    },
+    "core.sampling": {
+      "module": "core.sampling",
+      "total_tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0,
+      "pass_rate": 1.0,
+      "tests": [
+        {
+          "test_id": "f2223b36_3",
+          "name": "sampling",
+          "status": "pass",
+          "module": "core.sampling",
+          "functionality": "core",
+          "timestamp": "2026-04-05T09:54:56.630408",
+          "duration_ms": 3.1290054321289062,
+          "message": null,
+          "details": {
+            "base_rate": 0.5,
+            "actual_rate": 0.39
+          },
+          "error": null
+        }
+      ]
+    },
+    "telemetry.tokens": {
+      "module": "telemetry.tokens",
+      "total_tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0,
+      "pass_rate": 1.0,
+      "tests": [
+        {
+          "test_id": "f2223b36_4",
+          "name": "token_counting",
+          "status": "pass",
+          "module": "telemetry.tokens",
+          "functionality": "telemetry",
+          "timestamp": "2026-04-05T09:54:56.865878",
+          "duration_ms": 235.4130744934082,
+          "message": null,
+          "details": {
+            "text": "Hello, how are you doing today?",
+            "count": 8,
+            "estimated": 8
+          },
+          "error": null
+        }
+      ]
+    },
+    "telemetry.cost": {
+      "module": "telemetry.cost",
+      "total_tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0,
+      "pass_rate": 1.0,
+      "tests": [
+        {
+          "test_id": "f2223b36_5",
+          "name": "cost_estimation",
+          "status": "pass",
+          "module": "telemetry.cost",
+          "functionality": "telemetry",
+          "timestamp": "2026-04-05T09:54:56.873127",
+          "duration_ms": 7.19761848449707,
+          "message": null,
+          "details": {
+            "cost": {
+              "input_cost_usd": 0.03,
+              "output_cost_usd": 0.03,
+              "cache_cost_usd": 0.0,
+              "total_cost_usd": 0.06
+            },
+            "session_total": 0.08
+          },
+          "error": null
+        }
+      ]
+    },
+    "telemetry.metrics": {
+      "module": "telemetry.metrics",
+      "total_tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0,
+      "pass_rate": 1.0,
+      "tests": [
+        {
+          "test_id": "f2223b36_6",
+          "name": "metrics",
+          "status": "pass",
+          "module": "telemetry.metrics",
+          "functionality": "telemetry",
+          "timestamp": "2026-04-05T09:54:56.891867",
+          "duration_ms": 18.68748664855957,
+          "message": null,
+          "details": {
+            "latency_mean": 137.5,
+            "throughput_tps": 450000.0,
+            "error_rate": 0.2
+          },
+          "error": null
+        }
+      ]
+    },
+    "telemetry.anomaly": {
+      "module": "telemetry.anomaly",
+      "total_tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0,
+      "pass_rate": 1.0,
+      "tests": [
+        {
+          "test_id": "f2223b36_7",
+          "name": "anomaly_detection",
+          "status": "pass",
+          "module": "telemetry.anomaly",
+          "functionality": "telemetry",
+          "timestamp": "2026-04-05T09:54:56.926727",
+          "duration_ms": 34.813642501831055,
+          "message": null,
+          "details": {
+            "normal_is_anomaly": false,
+            "high_is_anomaly": true
+          },
+          "error": null
+        }
+      ]
+    },
+    "privacy.pii": {
+      "module": "privacy.pii",
+      "total_tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0,
+      "pass_rate": 1.0,
+      "tests": [
+        {
+          "test_id": "f2223b36_8",
+          "name": "pii_detection",
+          "status": "pass",
+          "module": "privacy.pii",
+          "functionality": "privacy",
+          "timestamp": "2026-04-05T09:54:56.943052",
+          "duration_ms": 16.271591186523438,
+          "message": null,
+          "details": {
+            "has_pii": true,
+            "pii_count": 3,
+            "pii_types": [
+              "email",
+              "phone_us",
+              "ssn"
+            ],
+            "redacted": "Contact [email redacted] or call [phone redacted]. SSN: ***-**-****"
+          },
+          "error": null
+        }
+      ]
+    },
+    "privacy.encryption": {
+      "module": "privacy.encryption",
+      "total_tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0,
+      "pass_rate": 1.0,
+      "tests": [
+        {
+          "test_id": "f2223b36_9",
+          "name": "encryption",
+          "status": "pass",
+          "module": "privacy.encryption",
+          "functionality": "privacy",
+          "timestamp": "2026-04-05T09:54:56.972707",
+          "duration_ms": 29.59275245666504,
+          "message": null,
+          "details": {
+            "original": "Sensitive data",
+            "decrypted": "Sensitive data",
+            "match": true
+          },
+          "error": null
+        }
+      ]
+    },
+    "privacy.compliance": {
+      "module": "privacy.compliance",
+      "total_tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0,
+      "pass_rate": 1.0,
+      "tests": [
+        {
+          "test_id": "f2223b36_10",
+          "name": "compliance",
+          "status": "pass",
+          "module": "privacy.compliance",
+          "functionality": "privacy",
+          "timestamp": "2026-04-05T09:54:56.986495",
+          "duration_ms": 13.735294342041016,
+          "message": null,
+          "details": {
+            "retention_days": 90,
+            "audit_action": "read"
+          },
+          "error": null
+        }
+      ]
+    },
+    "security.injection": {
+      "module": "security.injection",
+      "total_tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0,
+      "pass_rate": 1.0,
+      "tests": [
+        {
+          "test_id": "f2223b36_11",
+          "name": "injection_detection",
+          "status": "pass",
+          "module": "security.injection",
+          "functionality": "security",
+          "timestamp": "2026-04-05T09:54:56.999857",
+          "duration_ms": 13.30423355102539,
+          "message": null,
+          "details": {
+            "safe_is_injection": false,
+            "injection_detected": true,
+            "injection_score": 0.95
+          },
+          "error": null
+        }
+      ]
+    },
+    "security.guardrails": {
+      "module": "security.guardrails",
+      "total_tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0,
+      "pass_rate": 1.0,
+      "tests": [
+        {
+          "test_id": "f2223b36_12",
+          "name": "guardrails",
+          "status": "pass",
+          "module": "security.guardrails",
+          "functionality": "security",
+          "timestamp": "2026-04-05T09:54:57.000121",
+          "duration_ms": 0.22602081298828125,
+          "message": null,
+          "details": {
+            "safe_passed": true,
+            "unsafe_passed": false,
+            "unsafe_violations": [
+              "pii_in_output"
+            ]
+          },
+          "error": null
+        }
+      ]
+    },
+    "security.domain_enforcer": {
+      "module": "security.domain_enforcer",
+      "total_tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0,
+      "pass_rate": 1.0,
+      "tests": [
+        {
+          "test_id": "f2223b36_13",
+          "name": "domain_enforcer",
+          "status": "pass",
+          "module": "security.domain_enforcer",
+          "functionality": "security",
+          "timestamp": "2026-04-05T09:54:57.005966",
+          "duration_ms": 5.81812858581543,
+          "message": null,
+          "details": {
+            "valid_check": true,
+            "invalid_check": false
+          },
+          "error": null
+        }
+      ]
+    },
+    "intelligence.feedback": {
+      "module": "intelligence.feedback",
+      "total_tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0,
+      "pass_rate": 1.0,
+      "tests": [
+        {
+          "test_id": "f2223b36_14",
+          "name": "feedback",
+          "status": "pass",
+          "module": "intelligence.feedback",
+          "functionality": "intelligence",
+          "timestamp": "2026-04-05T09:54:57.006171",
+          "duration_ms": 0.16427040100097656,
+          "message": null,
+          "details": {
+            "count": 2,
+            "avg_rating": 3.5
+          },
+          "error": null
+        }
+      ]
+    },
+    "intelligence.conversation": {
+      "module": "intelligence.conversation",
+      "total_tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0,
+      "pass_rate": 1.0,
+      "tests": [
+        {
+          "test_id": "f2223b36_15",
+          "name": "conversation",
+          "status": "pass",
+          "module": "intelligence.conversation",
+          "functionality": "intelligence",
+          "timestamp": "2026-04-05T09:54:57.025961",
+          "duration_ms": 19.759178161621094,
+          "message": null,
+          "details": {
+            "total_turns": 4,
+            "user_turns": 2
+          },
+          "error": null
+        }
+      ]
+    },
+    "prompt_management.registry": {
+      "module": "prompt_management.registry",
+      "total_tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0,
+      "pass_rate": 1.0,
+      "tests": [
+        {
+          "test_id": "f2223b36_16",
+          "name": "prompt_registry",
+          "status": "pass",
+          "module": "prompt_management.registry",
+          "functionality": "prompt_management",
+          "timestamp": "2026-04-05T09:54:57.042188",
+          "duration_ms": 16.175031661987305,
+          "message": null,
+          "details": {
+            "template": "Hello {{name}}!",
+            "rendered": "Hello World!"
+          },
+          "error": null
+        }
+      ]
+    },
+    "prompt_management.ab_testing": {
+      "module": "prompt_management.ab_testing",
+      "total_tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0,
+      "pass_rate": 1.0,
+      "tests": [
+        {
+          "test_id": "f2223b36_17",
+          "name": "ab_testing",
+          "status": "pass",
+          "module": "prompt_management.ab_testing",
+          "functionality": "prompt_management",
+          "timestamp": "2026-04-05T09:54:57.043929",
+          "duration_ms": 1.692056655883789,
+          "message": null,
+          "details": {
+            "variant": "B"
+          },
+          "error": null
+        }
+      ]
+    },
+    "prompt_management.playground": {
+      "module": "prompt_management.playground",
+      "total_tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0,
+      "pass_rate": 1.0,
+      "tests": [
+        {
+          "test_id": "f2223b36_18",
+          "name": "playground",
+          "status": "pass",
+          "module": "prompt_management.playground",
+          "functionality": "prompt_management",
+          "timestamp": "2026-04-05T09:54:57.049997",
+          "duration_ms": 6.026506423950195,
+          "message": null,
+          "details": {
+            "rendered": "Hello {Test}!"
+          },
+          "error": null
+        }
+      ]
+    },
+    "exporters.csv": {
+      "module": "exporters.csv",
+      "total_tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0,
+      "pass_rate": 1.0,
+      "tests": [
+        {
+          "test_id": "f2223b36_19",
+          "name": "csv_exporter",
+          "status": "pass",
+          "module": "exporters.csv",
+          "functionality": "exporters",
+          "timestamp": "2026-04-05T09:54:57.050911",
+          "duration_ms": 0.8552074432373047,
+          "message": null,
+          "details": {
+            "config_dir": "outputs\\test_csv",
+            "separate_by_type": true
+          },
+          "error": null
+        }
+      ]
+    },
+    "exporters.batch": {
+      "module": "exporters.batch",
+      "total_tests": 1,
+      "passed": 0,
+      "failed": 1,
+      "skipped": 0,
+      "errors": 0,
+      "pass_rate": 0.0,
+      "tests": [
+        {
+          "test_id": "f2223b36_20",
+          "name": "batch_exporter",
+          "status": "fail",
+          "module": "exporters.batch",
+          "functionality": "exporters",
+          "timestamp": "2026-04-05T09:54:57.061856",
+          "duration_ms": 10.897636413574219,
+          "message": null,
+          "details": {},
+          "error": "'CircularBuffer' object has no attribute 'get_all'"
+        }
+      ]
+    },
+    "api.azure_openai": {
+      "module": "api.azure_openai",
+      "total_tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0,
+      "pass_rate": 1.0,
+      "tests": [
+        {
+          "test_id": "f2223b36_21",
+          "name": "azure_openai",
+          "status": "pass",
+          "module": "api.azure_openai",
+          "functionality": "api_integration",
+          "timestamp": "2026-04-05T09:55:02.771146",
+          "duration_ms": 5709.177255630493,
+          "message": null,
+          "details": {
+            "response": "4",
+            "tokens": 21,
+            "model": "gpt-4.1"
+          },
+          "error": null
+        }
+      ]
+    },
+    "api.gemini": {
+      "module": "api.gemini",
+      "total_tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0,
+      "pass_rate": 1.0,
+      "tests": [
+        {
+          "test_id": "f2223b36_22",
+          "name": "gemini",
+          "status": "pass",
+          "module": "api.gemini",
+          "functionality": "api_integration",
+          "timestamp": "2026-04-05T09:55:06.964974",
+          "duration_ms": 4193.748712539673,
+          "message": null,
+          "details": {
+            "status": "error",
+            "error": "429 You exceeded your current quota, please check your plan and billing details. For more informatio"
+          },
+          "error": null
+        }
+      ]
+    }
+  },
+  "functionalities": {
+    "core": {
+      "functionality": "core",
+      "description": "Core tracing functionality (tracer, span, decorators)",
+      "total_tests": 4,
+      "passed": 4,
+      "failed": 0,
+      "pass_rate": 1.0,
+      "tests": [
+        {
+          "test_id": "f2223b36_0",
+          "name": "tracer_span",
+          "status": "pass",
+          "module": "core.tracer",
+          "functionality": "core",
+          "timestamp": "2026-04-05T09:54:56.626169",
+          "duration_ms": 0.07939338684082031,
+          "message": null,
+          "details": {
+            "span_id": "5d11218fc4f7dc7d",
+            "span_type": "llm"
+          },
+          "error": null
+        },
+        {
+          "test_id": "f2223b36_1",
+          "name": "decorators",
+          "status": "pass",
+          "module": "core.decorators",
+          "functionality": "core",
+          "timestamp": "2026-04-05T09:54:56.627033",
+          "duration_ms": 0.8256435394287109,
+          "message": null,
+          "details": {
+            "trace": 8,
+            "trace_llm": "Response: Hello",
+            "trace_agent": "Done: Task",
+            "trace_tool": 50
+          },
+          "error": null
+        },
+        {
+          "test_id": "f2223b36_2",
+          "name": "context_managers",
+          "status": "pass",
+          "module": "core.context_manager",
+          "functionality": "core",
+          "timestamp": "2026-04-05T09:54:56.627253",
+          "duration_ms": 0.202178955078125,
+          "message": null,
+          "details": {
+            "llm_trace": "b87f8baf3c4a4a5a832d8a7c51d4e0e8",
+            "agent_trace": "325b70d24c084e23abb60fed7d9caa98",
+            "tool_trace": "28dd95a703994905bb80e09ca10bde91"
+          },
+          "error": null
+        },
+        {
+          "test_id": "f2223b36_3",
+          "name": "sampling",
+          "status": "pass",
+          "module": "core.sampling",
+          "functionality": "core",
+          "timestamp": "2026-04-05T09:54:56.630408",
+          "duration_ms": 3.1290054321289062,
+          "message": null,
+          "details": {
+            "base_rate": 0.5,
+            "actual_rate": 0.39
+          },
+          "error": null
+        }
+      ]
+    },
+    "telemetry": {
+      "functionality": "telemetry",
+      "description": "Telemetry and metrics (tokens, cost, latency)",
+      "total_tests": 4,
+      "passed": 4,
+      "failed": 0,
+      "pass_rate": 1.0,
+      "tests": [
+        {
+          "test_id": "f2223b36_4",
+          "name": "token_counting",
+          "status": "pass",
+          "module": "telemetry.tokens",
+          "functionality": "telemetry",
+          "timestamp": "2026-04-05T09:54:56.865878",
+          "duration_ms": 235.4130744934082,
+          "message": null,
+          "details": {
+            "text": "Hello, how are you doing today?",
+            "count": 8,
+            "estimated": 8
+          },
+          "error": null
+        },
+        {
+          "test_id": "f2223b36_5",
+          "name": "cost_estimation",
+          "status": "pass",
+          "module": "telemetry.cost",
+          "functionality": "telemetry",
+          "timestamp": "2026-04-05T09:54:56.873127",
+          "duration_ms": 7.19761848449707,
+          "message": null,
+          "details": {
+            "cost": {
+              "input_cost_usd": 0.03,
+              "output_cost_usd": 0.03,
+              "cache_cost_usd": 0.0,
+              "total_cost_usd": 0.06
+            },
+            "session_total": 0.08
+          },
+          "error": null
+        },
+        {
+          "test_id": "f2223b36_6",
+          "name": "metrics",
+          "status": "pass",
+          "module": "telemetry.metrics",
+          "functionality": "telemetry",
+          "timestamp": "2026-04-05T09:54:56.891867",
+          "duration_ms": 18.68748664855957,
+          "message": null,
+          "details": {
+            "latency_mean": 137.5,
+            "throughput_tps": 450000.0,
+            "error_rate": 0.2
+          },
+          "error": null
+        },
+        {
+          "test_id": "f2223b36_7",
+          "name": "anomaly_detection",
+          "status": "pass",
+          "module": "telemetry.anomaly",
+          "functionality": "telemetry",
+          "timestamp": "2026-04-05T09:54:56.926727",
+          "duration_ms": 34.813642501831055,
+          "message": null,
+          "details": {
+            "normal_is_anomaly": false,
+            "high_is_anomaly": true
+          },
+          "error": null
+        }
+      ]
+    },
+    "privacy": {
+      "functionality": "privacy",
+      "description": "Privacy features (PII detection, redaction, encryption)",
+      "total_tests": 3,
+      "passed": 3,
+      "failed": 0,
+      "pass_rate": 1.0,
+      "tests": [
+        {
+          "test_id": "f2223b36_8",
+          "name": "pii_detection",
+          "status": "pass",
+          "module": "privacy.pii",
+          "functionality": "privacy",
+          "timestamp": "2026-04-05T09:54:56.943052",
+          "duration_ms": 16.271591186523438,
+          "message": null,
+          "details": {
+            "has_pii": true,
+            "pii_count": 3,
+            "pii_types": [
+              "email",
+              "phone_us",
+              "ssn"
+            ],
+            "redacted": "Contact [email redacted] or call [phone redacted]. SSN: ***-**-****"
+          },
+          "error": null
+        },
+        {
+          "test_id": "f2223b36_9",
+          "name": "encryption",
+          "status": "pass",
+          "module": "privacy.encryption",
+          "functionality": "privacy",
+          "timestamp": "2026-04-05T09:54:56.972707",
+          "duration_ms": 29.59275245666504,
+          "message": null,
+          "details": {
+            "original": "Sensitive data",
+            "decrypted": "Sensitive data",
+            "match": true
+          },
+          "error": null
+        },
+        {
+          "test_id": "f2223b36_10",
+          "name": "compliance",
+          "status": "pass",
+          "module": "privacy.compliance",
+          "functionality": "privacy",
+          "timestamp": "2026-04-05T09:54:56.986495",
+          "duration_ms": 13.735294342041016,
+          "message": null,
+          "details": {
+            "retention_days": 90,
+            "audit_action": "read"
+          },
+          "error": null
+        }
+      ]
+    },
+    "security": {
+      "functionality": "security",
+      "description": "Security features (injection detection, guardrails)",
+      "total_tests": 3,
+      "passed": 3,
+      "failed": 0,
+      "pass_rate": 1.0,
+      "tests": [
+        {
+          "test_id": "f2223b36_11",
+          "name": "injection_detection",
+          "status": "pass",
+          "module": "security.injection",
+          "functionality": "security",
+          "timestamp": "2026-04-05T09:54:56.999857",
+          "duration_ms": 13.30423355102539,
+          "message": null,
+          "details": {
+            "safe_is_injection": false,
+            "injection_detected": true,
+            "injection_score": 0.95
+          },
+          "error": null
+        },
+        {
+          "test_id": "f2223b36_12",
+          "name": "guardrails",
+          "status": "pass",
+          "module": "security.guardrails",
+          "functionality": "security",
+          "timestamp": "2026-04-05T09:54:57.000121",
+          "duration_ms": 0.22602081298828125,
+          "message": null,
+          "details": {
+            "safe_passed": true,
+            "unsafe_passed": false,
+            "unsafe_violations": [
+              "pii_in_output"
+            ]
+          },
+          "error": null
+        },
+        {
+          "test_id": "f2223b36_13",
+          "name": "domain_enforcer",
+          "status": "pass",
+          "module": "security.domain_enforcer",
+          "functionality": "security",
+          "timestamp": "2026-04-05T09:54:57.005966",
+          "duration_ms": 5.81812858581543,
+          "message": null,
+          "details": {
+            "valid_check": true,
+            "invalid_check": false
+          },
+          "error": null
+        }
+      ]
+    },
+    "intelligence": {
+      "functionality": "intelligence",
+      "description": "Intelligence features (feedback, evaluation)",
+      "total_tests": 2,
+      "passed": 2,
+      "failed": 0,
+      "pass_rate": 1.0,
+      "tests": [
+        {
+          "test_id": "f2223b36_14",
+          "name": "feedback",
+          "status": "pass",
+          "module": "intelligence.feedback",
+          "functionality": "intelligence",
+          "timestamp": "2026-04-05T09:54:57.006171",
+          "duration_ms": 0.16427040100097656,
+          "message": null,
+          "details": {
+            "count": 2,
+            "avg_rating": 3.5
+          },
+          "error": null
+        },
+        {
+          "test_id": "f2223b36_15",
+          "name": "conversation",
+          "status": "pass",
+          "module": "intelligence.conversation",
+          "functionality": "intelligence",
+          "timestamp": "2026-04-05T09:54:57.025961",
+          "duration_ms": 19.759178161621094,
+          "message": null,
+          "details": {
+            "total_turns": 4,
+            "user_turns": 2
+          },
+          "error": null
+        }
+      ]
+    },
+    "prompt_management": {
+      "functionality": "prompt_management",
+      "description": "Prompt management (registry, versioning, A/B testing)",
+      "total_tests": 3,
+      "passed": 3,
+      "failed": 0,
+      "pass_rate": 1.0,
+      "tests": [
+        {
+          "test_id": "f2223b36_16",
+          "name": "prompt_registry",
+          "status": "pass",
+          "module": "prompt_management.registry",
+          "functionality": "prompt_management",
+          "timestamp": "2026-04-05T09:54:57.042188",
+          "duration_ms": 16.175031661987305,
+          "message": null,
+          "details": {
+            "template": "Hello {{name}}!",
+            "rendered": "Hello World!"
+          },
+          "error": null
+        },
+        {
+          "test_id": "f2223b36_17",
+          "name": "ab_testing",
+          "status": "pass",
+          "module": "prompt_management.ab_testing",
+          "functionality": "prompt_management",
+          "timestamp": "2026-04-05T09:54:57.043929",
+          "duration_ms": 1.692056655883789,
+          "message": null,
+          "details": {
+            "variant": "B"
+          },
+          "error": null
+        },
+        {
+          "test_id": "f2223b36_18",
+          "name": "playground",
+          "status": "pass",
+          "module": "prompt_management.playground",
+          "functionality": "prompt_management",
+          "timestamp": "2026-04-05T09:54:57.049997",
+          "duration_ms": 6.026506423950195,
+          "message": null,
+          "details": {
+            "rendered": "Hello {Test}!"
+          },
+          "error": null
+        }
+      ]
+    },
+    "exporters": {
+      "functionality": "exporters",
+      "description": "Data exporters (JSON, CSV, database)",
+      "total_tests": 2,
+      "passed": 1,
+      "failed": 1,
+      "pass_rate": 0.5,
+      "tests": [
+        {
+          "test_id": "f2223b36_19",
+          "name": "csv_exporter",
+          "status": "pass",
+          "module": "exporters.csv",
+          "functionality": "exporters",
+          "timestamp": "2026-04-05T09:54:57.050911",
+          "duration_ms": 0.8552074432373047,
+          "message": null,
+          "details": {
+            "config_dir": "outputs\\test_csv",
+            "separate_by_type": true
+          },
+          "error": null
+        },
+        {
+          "test_id": "f2223b36_20",
+          "name": "batch_exporter",
+          "status": "fail",
+          "module": "exporters.batch",
+          "functionality": "exporters",
+          "timestamp": "2026-04-05T09:54:57.061856",
+          "duration_ms": 10.897636413574219,
+          "message": null,
+          "details": {},
+          "error": "'CircularBuffer' object has no attribute 'get_all'"
+        }
+      ]
+    },
+    "api_integration": {
+      "functionality": "api_integration",
+      "description": "API integrations (Azure OpenAI, Gemini, etc.)",
+      "total_tests": 2,
+      "passed": 2,
+      "failed": 0,
+      "pass_rate": 1.0,
+      "tests": [
+        {
+          "test_id": "f2223b36_21",
+          "name": "azure_openai",
+          "status": "pass",
+          "module": "api.azure_openai",
+          "functionality": "api_integration",
+          "timestamp": "2026-04-05T09:55:02.771146",
+          "duration_ms": 5709.177255630493,
+          "message": null,
+          "details": {
+            "response": "4",
+            "tokens": 21,
+            "model": "gpt-4.1"
+          },
+          "error": null
+        },
+        {
+          "test_id": "f2223b36_22",
+          "name": "gemini",
+          "status": "pass",
+          "module": "api.gemini",
+          "functionality": "api_integration",
+          "timestamp": "2026-04-05T09:55:06.964974",
+          "duration_ms": 4193.748712539673,
+          "message": null,
+          "details": {
+            "status": "error",
+            "error": "429 You exceeded your current quota, please check your plan and billing details. For more informatio"
+          },
+          "error": null
+        }
+      ]
+    }
+  },
+  "results": [
+    {
+      "test_id": "f2223b36_0",
+      "name": "tracer_span",
+      "status": "pass",
+      "module": "core.tracer",
+      "functionality": "core",
+      "timestamp": "2026-04-05T09:54:56.626169",
+      "duration_ms": 0.07939338684082031,
+      "message": null,
+      "details": {
+        "span_id": "5d11218fc4f7dc7d",
+        "span_type": "llm"
+      },
+      "error": null
+    },
+    {
+      "test_id": "f2223b36_1",
+      "name": "decorators",
+      "status": "pass",
+      "module": "core.decorators",
+      "functionality": "core",
+      "timestamp": "2026-04-05T09:54:56.627033",
+      "duration_ms": 0.8256435394287109,
+      "message": null,
+      "details": {
+        "trace": 8,
+        "trace_llm": "Response: Hello",
+        "trace_agent": "Done: Task",
+        "trace_tool": 50
+      },
+      "error": null
+    },
+    {
+      "test_id": "f2223b36_2",
+      "name": "context_managers",
+      "status": "pass",
+      "module": "core.context_manager",
+      "functionality": "core",
+      "timestamp": "2026-04-05T09:54:56.627253",
+      "duration_ms": 0.202178955078125,
+      "message": null,
+      "details": {
+        "llm_trace": "b87f8baf3c4a4a5a832d8a7c51d4e0e8",
+        "agent_trace": "325b70d24c084e23abb60fed7d9caa98",
+        "tool_trace": "28dd95a703994905bb80e09ca10bde91"
+      },
+      "error": null
+    },
+    {
+      "test_id": "f2223b36_3",
+      "name": "sampling",
+      "status": "pass",
+      "module": "core.sampling",
+      "functionality": "core",
+      "timestamp": "2026-04-05T09:54:56.630408",
+      "duration_ms": 3.1290054321289062,
+      "message": null,
+      "details": {
+        "base_rate": 0.5,
+        "actual_rate": 0.39
+      },
+      "error": null
+    },
+    {
+      "test_id": "f2223b36_4",
+      "name": "token_counting",
+      "status": "pass",
+      "module": "telemetry.tokens",
+      "functionality": "telemetry",
+      "timestamp": "2026-04-05T09:54:56.865878",
+      "duration_ms": 235.4130744934082,
+      "message": null,
+      "details": {
+        "text": "Hello, how are you doing today?",
+        "count": 8,
+        "estimated": 8
+      },
+      "error": null
+    },
+    {
+      "test_id": "f2223b36_5",
+      "name": "cost_estimation",
+      "status": "pass",
+      "module": "telemetry.cost",
+      "functionality": "telemetry",
+      "timestamp": "2026-04-05T09:54:56.873127",
+      "duration_ms": 7.19761848449707,
+      "message": null,
+      "details": {
+        "cost": {
+          "input_cost_usd": 0.03,
+          "output_cost_usd": 0.03,
+          "cache_cost_usd": 0.0,
+          "total_cost_usd": 0.06
+        },
+        "session_total": 0.08
+      },
+      "error": null
+    },
+    {
+      "test_id": "f2223b36_6",
+      "name": "metrics",
+      "status": "pass",
+      "module": "telemetry.metrics",
+      "functionality": "telemetry",
+      "timestamp": "2026-04-05T09:54:56.891867",
+      "duration_ms": 18.68748664855957,
+      "message": null,
+      "details": {
+        "latency_mean": 137.5,
+        "throughput_tps": 450000.0,
+        "error_rate": 0.2
+      },
+      "error": null
+    },
+    {
+      "test_id": "f2223b36_7",
+      "name": "anomaly_detection",
+      "status": "pass",
+      "module": "telemetry.anomaly",
+      "functionality": "telemetry",
+      "timestamp": "2026-04-05T09:54:56.926727",
+      "duration_ms": 34.813642501831055,
+      "message": null,
+      "details": {
+        "normal_is_anomaly": false,
+        "high_is_anomaly": true
+      },
+      "error": null
+    },
+    {
+      "test_id": "f2223b36_8",
+      "name": "pii_detection",
+      "status": "pass",
+      "module": "privacy.pii",
+      "functionality": "privacy",
+      "timestamp": "2026-04-05T09:54:56.943052",
+      "duration_ms": 16.271591186523438,
+      "message": null,
+      "details": {
+        "has_pii": true,
+        "pii_count": 3,
+        "pii_types": [
+          "email",
+          "phone_us",
+          "ssn"
+        ],
+        "redacted": "Contact [email redacted] or call [phone redacted]. SSN: ***-**-****"
+      },
+      "error": null
+    },
+    {
+      "test_id": "f2223b36_9",
+      "name": "encryption",
+      "status": "pass",
+      "module": "privacy.encryption",
+      "functionality": "privacy",
+      "timestamp": "2026-04-05T09:54:56.972707",
+      "duration_ms": 29.59275245666504,
+      "message": null,
+      "details": {
+        "original": "Sensitive data",
+        "decrypted": "Sensitive data",
+        "match": true
+      },
+      "error": null
+    },
+    {
+      "test_id": "f2223b36_10",
+      "name": "compliance",
+      "status": "pass",
+      "module": "privacy.compliance",
+      "functionality": "privacy",
+      "timestamp": "2026-04-05T09:54:56.986495",
+      "duration_ms": 13.735294342041016,
+      "message": null,
+      "details": {
+        "retention_days": 90,
+        "audit_action": "read"
+      },
+      "error": null
+    },
+    {
+      "test_id": "f2223b36_11",
+      "name": "injection_detection",
+      "status": "pass",
+      "module": "security.injection",
+      "functionality": "security",
+      "timestamp": "2026-04-05T09:54:56.999857",
+      "duration_ms": 13.30423355102539,
+      "message": null,
+      "details": {
+        "safe_is_injection": false,
+        "injection_detected": true,
+        "injection_score": 0.95
+      },
+      "error": null
+    },
+    {
+      "test_id": "f2223b36_12",
+      "name": "guardrails",
+      "status": "pass",
+      "module": "security.guardrails",
+      "functionality": "security",
+      "timestamp": "2026-04-05T09:54:57.000121",
+      "duration_ms": 0.22602081298828125,
+      "message": null,
+      "details": {
+        "safe_passed": true,
+        "unsafe_passed": false,
+        "unsafe_violations": [
+          "pii_in_output"
+        ]
+      },
+      "error": null
+    },
+    {
+      "test_id": "f2223b36_13",
+      "name": "domain_enforcer",
+      "status": "pass",
+      "module": "security.domain_enforcer",
+      "functionality": "security",
+      "timestamp": "2026-04-05T09:54:57.005966",
+      "duration_ms": 5.81812858581543,
+      "message": null,
+      "details": {
+        "valid_check": true,
+        "invalid_check": false
+      },
+      "error": null
+    },
+    {
+      "test_id": "f2223b36_14",
+      "name": "feedback",
+      "status": "pass",
+      "module": "intelligence.feedback",
+      "functionality": "intelligence",
+      "timestamp": "2026-04-05T09:54:57.006171",
+      "duration_ms": 0.16427040100097656,
+      "message": null,
+      "details": {
+        "count": 2,
+        "avg_rating": 3.5
+      },
+      "error": null
+    },
+    {
+      "test_id": "f2223b36_15",
+      "name": "conversation",
+      "status": "pass",
+      "module": "intelligence.conversation",
+      "functionality": "intelligence",
+      "timestamp": "2026-04-05T09:54:57.025961",
+      "duration_ms": 19.759178161621094,
+      "message": null,
+      "details": {
+        "total_turns": 4,
+        "user_turns": 2
+      },
+      "error": null
+    },
+    {
+      "test_id": "f2223b36_16",
+      "name": "prompt_registry",
+      "status": "pass",
+      "module": "prompt_management.registry",
+      "functionality": "prompt_management",
+      "timestamp": "2026-04-05T09:54:57.042188",
+      "duration_ms": 16.175031661987305,
+      "message": null,
+      "details": {
+        "template": "Hello {{name}}!",
+        "rendered": "Hello World!"
+      },
+      "error": null
+    },
+    {
+      "test_id": "f2223b36_17",
+      "name": "ab_testing",
+      "status": "pass",
+      "module": "prompt_management.ab_testing",
+      "functionality": "prompt_management",
+      "timestamp": "2026-04-05T09:54:57.043929",
+      "duration_ms": 1.692056655883789,
+      "message": null,
+      "details": {
+        "variant": "B"
+      },
+      "error": null
+    },
+    {
+      "test_id": "f2223b36_18",
+      "name": "playground",
+      "status": "pass",
+      "module": "prompt_management.playground",
+      "functionality": "prompt_management",
+      "timestamp": "2026-04-05T09:54:57.049997",
+      "duration_ms": 6.026506423950195,
+      "message": null,
+      "details": {
+        "rendered": "Hello {Test}!"
+      },
+      "error": null
+    },
+    {
+      "test_id": "f2223b36_19",
+      "name": "csv_exporter",
+      "status": "pass",
+      "module": "exporters.csv",
+      "functionality": "exporters",
+      "timestamp": "2026-04-05T09:54:57.050911",
+      "duration_ms": 0.8552074432373047,
+      "message": null,
+      "details": {
+        "config_dir": "outputs\\test_csv",
+        "separate_by_type": true
+      },
+      "error": null
+    },
+    {
+      "test_id": "f2223b36_20",
+      "name": "batch_exporter",
+      "status": "fail",
+      "module": "exporters.batch",
+      "functionality": "exporters",
+      "timestamp": "2026-04-05T09:54:57.061856",
+      "duration_ms": 10.897636413574219,
+      "message": null,
+      "details": {},
+      "error": "'CircularBuffer' object has no attribute 'get_all'"
+    },
+    {
+      "test_id": "f2223b36_21",
+      "name": "azure_openai",
+      "status": "pass",
+      "module": "api.azure_openai",
+      "functionality": "api_integration",
+      "timestamp": "2026-04-05T09:55:02.771146",
+      "duration_ms": 5709.177255630493,
+      "message": null,
+      "details": {
+        "response": "4",
+        "tokens": 21,
+        "model": "gpt-4.1"
+      },
+      "error": null
+    },
+    {
+      "test_id": "f2223b36_22",
+      "name": "gemini",
+      "status": "pass",
+      "module": "api.gemini",
+      "functionality": "api_integration",
+      "timestamp": "2026-04-05T09:55:06.964974",
+      "duration_ms": 4193.748712539673,
+      "message": null,
+      "details": {
+        "status": "error",
+        "error": "429 You exceeded your current quota, please check your plan and billing details. For more informatio"
+      },
+      "error": null
+    }
+  ]
+}
