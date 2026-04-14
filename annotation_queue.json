@@ -1,0 +1,30 @@
+{
+  "5313888a": {
+    "id": "5313888a",
+    "trace_id": "t1",
+    "span_id": "",
+    "prompt": "Test",
+    "completion": "Response",
+    "priority": "normal",
+    "status": "pending",
+    "annotation": null,
+    "created_at": "2026-04-04T19:33:43.386193",
+    "model": "",
+    "eval_score": 0.0,
+    "metadata": {}
+  },
+  "ddf631d8": {
+    "id": "ddf631d8",
+    "trace_id": "t1",
+    "span_id": "",
+    "prompt": "Test",
+    "completion": "Response",
+    "priority": "normal",
+    "status": "pending",
+    "annotation": null,
+    "created_at": "2026-04-04T19:34:51.239169",
+    "model": "",
+    "eval_score": 0.0,
+    "metadata": {}
+  }
+}
