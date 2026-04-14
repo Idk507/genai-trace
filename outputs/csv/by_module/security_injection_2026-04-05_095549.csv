@@ -1,0 +1,2 @@
+test_id,name,status,module,functionality,timestamp,duration_ms,message,error,detail.injection_detected,detail.injection_score,detail.safe_is_injection
+cb695d9a_11,injection_detection,pass,security.injection,security,2026-04-05T09:55:40.602101,5.502223968505859,,,True,0.95,False
