@@ -1,0 +1,27 @@
+# GenAI-Traces Configuration
+# Copy this file to .env and fill in your values
+
+# Core Settings
+GENAI_TRACES_SERVICE_NAME=my-ai-app
+GENAI_TRACES_ENVIRONMENT=development
+
+# LLM Provider API Keys
+OPENAI_API_KEY=sk-...
+ANTHROPIC_API_KEY=sk-ant-...
+
+# Database (for PostgreSQL exporter)
+# GENAI_TRACES_DB=postgresql://user:password@localhost:5432/traces
+
+# Privacy Settings
+GENAI_TRACES_ENABLE_PII_DETECTION=true
+GENAI_TRACES_ENABLE_PROMPT_CAPTURE=true
+
+# Security Settings
+GENAI_TRACES_ENABLE_INJECTION_DETECTION=true
+GENAI_TRACES_INJECTION_ACTION=log
+
+# Sampling (0.0-1.0, where 1.0 = 100%)
+GENAI_TRACES_SAMPLE_RATE=1.0
+
+# Alerting
+# SLACK_WEBHOOK_URL=https://hooks.slack.com/services/...
