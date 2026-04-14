@@ -1,0 +1,4 @@
+test_id,name,status,module,functionality,timestamp,duration_ms,message,error,detail.injection_detected,detail.injection_score,detail.invalid_check,detail.safe_is_injection,detail.safe_passed,detail.unsafe_passed,detail.unsafe_violations,detail.valid_check
+f464b0dc_11,injection_detection,pass,security.injection,security,2026-04-05T09:56:14.177969,6.4220428466796875,,,True,0.95,,False,,,,
+f464b0dc_12,guardrails,pass,security.guardrails,security,2026-04-05T09:56:14.178364,0.33783912658691406,,,,,,,True,False,['pii_in_output'],
+f464b0dc_13,domain_enforcer,pass,security.domain_enforcer,security,2026-04-05T09:56:14.183371,4.94384765625,,,,,False,,,,,True
