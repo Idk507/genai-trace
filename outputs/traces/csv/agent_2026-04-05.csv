@@ -1,0 +1,7 @@
+trace_id,span_id,parent_span_id,root_span_id,name,span_type,start_time,end_time,duration_ms,status,status_message,prompt_name,prompt_version,experiment_id,variant_id,injection_detected,injection_type,attr.service.name,attr.service.environment,attr.service.version,attr.agent.type
+02a13e448f0c42f1b48c2547519bbba3,5d11218fe261c00e,,5d11218fe261c00e,test_agent,agent,2026-04-05T09:54:56.626836,2026-04-05T09:54:56.626845,0.009000000000000001,ok,,,,,,False,,complete-test,development,0.0.0,react
+325b70d24c084e23abb60fed7d9caa98,5d112190b2a8b598,,5d112190b2a8b598,agent_test,agent,2026-04-05T09:54:56.627140,2026-04-05T09:54:56.627146,0.006,ok,,,,,,False,,complete-test,development,0.0.0,react
+e261e8f7e6274007a71318c27c1003eb,5d11cc2f3799fe0a,,5d11cc2f3799fe0a,test_agent,agent,2026-04-05T09:55:40.306451,2026-04-05T09:55:40.306458,0.007,ok,,,,,,False,,complete-test,development,0.0.0,react
+0e24c5baf70a4318b1ed7c228b94a57e,5d11cc2f59ad0d6f,,5d11cc2f59ad0d6f,agent_test,agent,2026-04-05T09:55:40.306735,2026-04-05T09:55:40.306741,0.006,ok,,,,,,False,,complete-test,development,0.0.0,react
+a8639d265848470e89f83dc6fbcc719a,5d124f32aa7498e5,,5d124f32aa7498e5,test_agent,agent,2026-04-05T09:56:13.845042,2026-04-05T09:56:13.845058,0.016,ok,,,,,,False,,complete-test,development,0.0.0,react
+ad5052b6ad0b459b930037977c1eb72f,5d124f323eb158d0,,5d124f323eb158d0,agent_test,agent,2026-04-05T09:56:13.845636,2026-04-05T09:56:13.845649,0.013,ok,,,,,,False,,complete-test,development,0.0.0,react
