@@ -1,0 +1,2 @@
+test_id,name,status,module,functionality,timestamp,duration_ms,message,error,detail.agent_trace,detail.llm_trace,detail.tool_trace
+f2223b36_2,context_managers,pass,core.context_manager,core,2026-04-05T09:54:56.627253,0.202178955078125,,,325b70d24c084e23abb60fed7d9caa98,b87f8baf3c4a4a5a832d8a7c51d4e0e8,28dd95a703994905bb80e09ca10bde91
