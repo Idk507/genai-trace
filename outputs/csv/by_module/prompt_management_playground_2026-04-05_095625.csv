@@ -1,0 +1,2 @@
+test_id,name,status,module,functionality,timestamp,duration_ms,message,error,detail.rendered
+f464b0dc_18,playground,pass,prompt_management.playground,prompt_management,2026-04-05T09:56:14.251961,4.069805145263672,,,Hello {Test}!
