@@ -1,0 +1,26 @@
+{
+  "test-exp": {
+    "experiment_id": "test-exp",
+    "variants": [
+      {
+        "id": "A",
+        "prompt_name": null,
+        "version": null,
+        "model": null,
+        "weight": 0.5,
+        "metadata": {}
+      },
+      {
+        "id": "B",
+        "prompt_name": null,
+        "version": null,
+        "model": null,
+        "weight": 0.5,
+        "metadata": {}
+      }
+    ],
+    "status": "active",
+    "created_at": "2026-04-04T19:34:51.260687",
+    "results": {}
+  }
+}
