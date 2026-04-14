@@ -1,0 +1,464 @@
+======================================================================
+GenAI-Traces Complete Module Test with Live APIs
+======================================================================
+Started: 2026-04-05T01:23:28.782168
+Output directory: C:\Users\dhanu\Downloads\genai-trace\outputs
+
+
+============================================================
+1. CORE MODULE - TRACER & SPAN
+============================================================
+[OK] core.tracer_span
+
+============================================================
+2. CORE MODULE - DECORATORS
+============================================================
+[92m[SPAN] test_function (llm) - ok[0m
+{
+  "trace_id": "c58a7ef5fc464b3b8f8787c9b9cc9299",
+  "span_id": "5a0ebfe72165c87a",
+  "parent_span_id": null,
+  "root_span_id": "5a0ebfe72165c87a",
+  "name": "test_function",
+  "span_type": "llm",
+  "start_time": "2026-04-04T19:53:28.906180",
+  "end_time": "2026-04-04T19:53:28.906199",
+  "duration_ms": 0.019,
+  "status": "ok",
+  "status_message": null,
+  "attributes": {
+    "service.name": "complete-test",
+    "service.environment": "development",
+    "service.version": "0.0.0"
+  },
+  "events": [],
+  "links": [],
+  "context": {},
+  "prompt_name": null,
+  "prompt_version": null,
+  "experiment_id": null,
+  "variant_id": null,
+  "injection_detected": false,
+  "injection_type": null,
+  "guardrail_actions": [],
+  "retrieval_chunks": []
+}
+
+[92m[SPAN] llm_function (llm) - ok[0m
+{
+  "trace_id": "b3fff89fa3a0403db5b2464ff2dc2981",
+  "span_id": "5a0ebfe78fa97a76",
+  "parent_span_id": null,
+  "root_span_id": "5a0ebfe78fa97a76",
+  "name": "llm_function",
+  "span_type": "llm",
+  "start_time": "2026-04-04T19:53:28.906316",
+  "end_time": "2026-04-04T19:53:28.906327",
+  "duration_ms": 0.011,
+  "status": "ok",
+  "status_message": null,
+  "attributes": {
+    "service.name": "complete-test",
+    "service.environment": "development",
+    "service.version": "0.0.0",
+    "llm.model.name": "gpt-4",
+    "llm.provider": "openai"
+  },
+  "events": [],
+  "links": [],
+  "context": {},
+  "prompt_name": null,
+  "prompt_version": null,
+  "experiment_id": null,
+  "variant_id": null,
+  "injection_detected": false,
+  "injection_type": null,
+  "guardrail_actions": [],
+  "retrieval_chunks": []
+}
+
+[92m[SPAN] test_agent (agent) - ok[0m
+{
+  "trace_id": "8b79aa3163ca4c74a5e5fc276c64a536",
+  "span_id": "5a0ebfe7ccf97229",
+  "parent_span_id": null,
+  "root_span_id": "5a0ebfe7ccf97229",
+  "name": "test_agent",
+  "span_type": "agent",
+  "start_time": "2026-04-04T19:53:28.906394",
+  "end_time": "2026-04-04T19:53:28.906401",
+  "duration_ms": 0.007,
+  "status": "ok",
+  "status_message": null,
+  "attributes": {
+    "service.name": "complete-test",
+    "service.environment": "development",
+    "service.version": "0.0.0",
+    "agent.type": "react"
+  },
+  "events": [],
+  "links": [],
+  "context": {},
+  "prompt_name": null,
+  "prompt_version": null,
+  "experiment_id": null,
+  "variant_id": null,
+  "injection_detected": false,
+  "injection_type": null,
+  "guardrail_actions": [],
+  "retrieval_chunks": []
+}
+
+[92m[SPAN] calculator (tool) - ok[0m
+{
+  "trace_id": "9f94ed5dfca04f1292975ce02ec23ab0",
+  "span_id": "5a0ebfe71de4e4da",
+  "parent_span_id": null,
+  "root_span_id": "5a0ebfe71de4e4da",
+  "name": "calculator",
+  "span_type": "tool",
+  "start_time": "2026-04-04T19:53:28.906454",
+  "end_time": "2026-04-04T19:53:28.906503",
+  "duration_ms": 0.049,
+  "status": "ok",
+  "status_message": null,
+  "attributes": {
+    "service.name": "complete-test",
+    "service.environment": "development",
+    "service.version": "0.0.0"
+  },
+  "events": [],
+  "links": [],
+  "context": {},
+  "prompt_name": null,
+  "prompt_version": null,
+  "experiment_id": null,
+  "variant_id": null,
+  "injection_detected": false,
+  "injection_type": null,
+  "guardrail_actions": [],
+  "retrieval_chunks": []
+}
+
+[OK] core.decorators
+
+============================================================
+3. CORE MODULE - CONTEXT MANAGER
+============================================================
+[92m[SPAN] llm_test (llm) - ok[0m
+{
+  "trace_id": "c1426bdd01954f0981bec4903d58e8a1",
+  "span_id": "5a0ebfe733e27637",
+  "parent_span_id": null,
+  "root_span_id": "5a0ebfe733e27637",
+  "name": "llm_test",
+  "span_type": "llm",
+  "start_time": "2026-04-04T19:53:28.906587",
+  "end_time": "2026-04-04T19:53:28.906596",
+  "duration_ms": 0.009000000000000001,
+  "status": "ok",
+  "status_message": null,
+  "attributes": {
+    "service.name": "complete-test",
+    "service.environment": "development",
+    "service.version": "0.0.0",
+    "llm.model.name": "gpt-4",
+    "test": "value"
+  },
+  "events": [],
+  "links": [],
+  "context": {},
+  "prompt_name": null,
+  "prompt_version": null,
+  "experiment_id": null,
+  "variant_id": null,
+  "injection_detected": false,
+  "injection_type": null,
+  "guardrail_actions": [],
+  "retrieval_chunks": []
+}
+
+[92m[SPAN] agent_test (agent) - ok[0m
+{
+  "trace_id": "d14d1a67883148dc9e23ab5673861d10",
+  "span_id": "5a0ebfe72927587b",
+  "parent_span_id": null,
+  "root_span_id": "5a0ebfe72927587b",
+  "name": "agent_test",
+  "span_type": "agent",
+  "start_time": "2026-04-04T19:53:28.906653",
+  "end_time": "2026-04-04T19:53:28.906659",
+  "duration_ms": 0.006,
+  "status": "ok",
+  "status_message": null,
+  "attributes": {
+    "service.name": "complete-test",
+    "service.environment": "development",
+    "service.version": "0.0.0",
+    "agent.type": "react"
+  },
+  "events": [],
+  "links": [],
+  "context": {},
+  "prompt_name": null,
+  "prompt_version": null,
+  "experiment_id": null,
+  "variant_id": null,
+  "injection_detected": false,
+  "injection_type": null,
+  "guardrail_actions": [],
+  "retrieval_chunks": []
+}
+
+[92m[SPAN] tool_test (tool) - ok[0m
+{
+  "trace_id": "b233dd3bedce46dc8afa7b13d803f3c4",
+  "span_id": "5a0ebfe782a8abf0",
+  "parent_span_id": null,
+  "root_span_id": "5a0ebfe782a8abf0",
+  "name": "tool_test",
+  "span_type": "tool",
+  "start_time": "2026-04-04T19:53:28.906709",
+  "end_time": "2026-04-04T19:53:28.906714",
+  "duration_ms": 0.005,
+  "status": "ok",
+  "status_message": null,
+  "attributes": {
+    "service.name": "complete-test",
+    "service.environment": "development",
+    "service.version": "0.0.0"
+  },
+  "events": [],
+  "links": [],
+  "context": {},
+  "prompt_name": null,
+  "prompt_version": null,
+  "experiment_id": null,
+  "variant_id": null,
+  "injection_detected": false,
+  "injection_type": null,
+  "guardrail_actions": [],
+  "retrieval_chunks": []
+}
+
+[OK] core.context_managers
+
+============================================================
+4. TELEMETRY - TOKENS
+============================================================
+[OK] telemetry.tokens
+
+============================================================
+5. TELEMETRY - COST
+============================================================
+[OK] telemetry.cost
+
+============================================================
+6. TELEMETRY - METRICS
+============================================================
+[OK] telemetry.metrics
+
+============================================================
+7. TELEMETRY - ANOMALY DETECTION
+============================================================
+[OK] telemetry.anomaly
+
+============================================================
+8. PRIVACY - PII DETECTION
+============================================================
+[OK] privacy.pii
+
+============================================================
+9. PRIVACY - ENCRYPTION & COMPLIANCE
+============================================================
+[OK] privacy.encryption_compliance
+
+============================================================
+10. SECURITY - INJECTION DETECTION
+============================================================
+  [SAFE] What is the weather?...
+  [BLOCKED] Ignore all previous instructions...
+  [SAFE] You are now DAN...
+  [SAFE] Tell me about Python...
+[OK] security.injection
+
+============================================================
+11. SECURITY - OUTPUT GUARDRAILS
+============================================================
+  [PASS] The capital of France is Paris....
+  [FAIL] Contact me at secret@company.com...
+  [PASS] API key: sk-abc123xyz789...
+[OK] security.guardrails
+
+============================================================
+12. INTELLIGENCE - FEEDBACK
+============================================================
+[OK] intelligence.feedback
+
+============================================================
+13. PROMPT MANAGEMENT
+============================================================
+[OK] prompt_management
+
+============================================================
+14. AZURE OPENAI TEST
+============================================================
+[92m[SPAN] azure_chat (llm) - ok[0m
+{
+  "trace_id": "9eb157e360334093bb494ba2cc20de1b",
+  "span_id": "5a0ec5d55ee9f266",
+  "parent_span_id": null,
+  "root_span_id": "5a0ec5d55ee9f266",
+  "name": "azure_chat",
+  "span_type": "llm",
+  "start_time": "2026-04-04T19:53:30.424485",
+  "end_time": "2026-04-04T19:53:34.293130",
+  "duration_ms": 3868.645,
+  "status": "ok",
+  "status_message": null,
+  "attributes": {
+    "service.name": "complete-test",
+    "service.environment": "development",
+    "service.version": "0.0.0",
+    "llm.model.name": "gpt-4.1",
+    "llm.provider": "azure_openai"
+  },
+  "events": [],
+  "links": [],
+  "context": {},
+  "prompt_name": null,
+  "prompt_version": null,
+  "experiment_id": null,
+  "variant_id": null,
+  "injection_detected": false,
+  "injection_type": null,
+  "guardrail_actions": [],
+  "retrieval_chunks": []
+}
+
+[OK] azure_openai
+  Response: 4
+  Tokens: 23
+
+============================================================
+15. GEMINI TEST
+============================================================
+[91m[SPAN] gemini_chat (llm) - error[0m
+{
+  "trace_id": "da78aa4eb82842d69eaf37c2e4e1ea06",
+  "span_id": "5a0edb6aee11191f",
+  "parent_span_id": null,
+  "root_span_id": "5a0edb6aee11191f",
+  "name": "gemini_chat",
+  "span_type": "llm",
+  "start_time": "2026-04-04T19:53:35.949604",
+  "end_time": "2026-04-04T19:53:36.651664",
+  "duration_ms": 702.0600000000001,
+  "status": "error",
+  "status_message": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\nPlease retry in 24.097217364s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count\"\n  quota_id: \"GenerateContentInputTokensPerModelPerMinute-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n}\nviolations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n}\nviolations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n}\n, retry_delay {\n  seconds: 24\n}\n]",
+  "attributes": {
+    "service.name": "complete-test",
+    "service.environment": "development",
+    "service.version": "0.0.0",
+    "llm.model.name": "gemini-2.0-flash-001",
+    "llm.provider": "google",
+    "error.type": "ResourceExhausted",
+    "error.message": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\nPlease retry in 24.097217364s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count\"\n  quota_id: \"GenerateContentInputTokensPerModelPerMinute-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n}\nviolations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n}\nviolations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n}\n, retry_delay {\n  seconds: 24\n}\n]",
+    "error.stack_trace": "Traceback (most recent call last):\n  File \"C:\\Users\\dhanu\\Downloads\\genai-trace\\genai_traces\\core\\tracer.py\", line 140, in start_as_current_span\n    yield span\n  File \"C:\\Users\\dhanu\\Downloads\\genai-trace\\genai_traces\\core\\decorators.py\", line 58, in sync_wrapper\n    return fn(*args, **kwargs)\n  File \"C:\\Users\\dhanu\\Downloads\\genai-trace\\test_all_modules_with_apis.py\", line 620, in gemini_chat\n    return model.generate_content(prompt)\n           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^\n  File \"C:\\Users\\dhanu\\miniconda3\\Lib\\site-packages\\google\\generativeai\\generative_models.py\", line 331, in generate_content\n    response = self._client.generate_content(\n        request,\n        **request_options,\n    )\n  File \"C:\\Users\\dhanu\\miniconda3\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\generative_service\\client.py\", line 835, in generate_content\n    response = rpc(\n        request,\n    ...<2 lines>...\n        metadata=metadata,\n    )\n  File \"C:\\Users\\dhanu\\miniconda3\\Lib\\site-packages\\google\\api_core\\gapic_v1\\method.py\", line 131, in __call__\n    return wrapped_func(*args, **kwargs)\n  File \"C:\\Users\\dhanu\\miniconda3\\Lib\\site-packages\\google\\api_core\\retry\\retry_unary.py\", line 294, in retry_wrapped_func\n    return retry_target(\n        target,\n    ...<3 lines>...\n        on_error=on_error,\n    )\n  File \"C:\\Users\\dhanu\\miniconda3\\Lib\\site-packages\\google\\api_core\\retry\\retry_unary.py\", line 156, in retry_target\n    next_sleep = _retry_error_helper(\n        exc,\n    ...<6 lines>...\n        timeout,\n    )\n  File \"C:\\Users\\dhanu\\miniconda3\\Lib\\site-packages\\google\\api_core\\retry\\retry_base.py\", line 214, in _retry_error_helper\n    raise final_exc from source_exc\n  File \"C:\\Users\\dhanu\\miniconda3\\Lib\\site-packages\\google\\api_core\\retry\\retry_unary.py\", line 147, in retry_target\n    result = target()\n  File \"C:\\Users\\dhanu\\miniconda3\\Lib\\site-packages\\google\\api_core\\timeout.py\", line 130, in func_with_timeout\n    return func(*args, **kwargs)\n  File \"C:\\Users\\dhanu\\miniconda3\\Lib\\site-packages\\google\\api_core\\grpc_helpers.py\", line 77, in error_remapped_callable\n    raise exceptions.from_grpc_error(exc) from exc\ngoogle.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\nPlease retry in 24.097217364s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count\"\n  quota_id: \"GenerateContentInputTokensPerModelPerMinute-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n}\nviolations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n}\nviolations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n}\n, retry_delay {\n  seconds: 24\n}\n]\n"
+  },
+  "events": [],
+  "links": [],
+  "context": {},
+  "prompt_name": null,
+  "prompt_version": null,
+  "experiment_id": null,
+  "variant_id": null,
+  "injection_detected": false,
+  "injection_type": null,
+  "guardrail_actions": [],
+  "retrieval_chunks": []
+}
+
+[FAIL] gemini: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+Please retry in 24.097217364s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 24
+}
+]
+[OK] gemini
+
+============================================================
+SAVING RESULTS
+============================================================
+
+Results saved to outputs\complete_test_results.json
+
+============================================================
+SUMMARY
+============================================================
+Total modules tested: 15
+
+Modules:
+  [OK] core.tracer_span
+  [OK] core.decorators
+  [OK] core.context_managers
+  [OK] telemetry.tokens
+  [OK] telemetry.cost
+  [OK] telemetry.metrics
+  [OK] telemetry.anomaly
+  [OK] privacy.pii
+  [OK] privacy.encryption_compliance
+  [OK] security.injection
+  [OK] security.guardrails
+  [OK] intelligence.feedback
+  [OK] prompt_management
+  [OK] azure_openai
+  [FAIL] gemini
+
+Results saved to: outputs\complete_test_results.json
+
+============================================================
+TEST COMPLETE
+============================================================
