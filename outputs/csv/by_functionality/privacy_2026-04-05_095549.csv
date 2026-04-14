@@ -1,0 +1,4 @@
+test_id,name,status,module,functionality,timestamp,duration_ms,message,error,detail.audit_action,detail.decrypted,detail.has_pii,detail.match,detail.original,detail.pii_count,detail.pii_types,detail.redacted,detail.retention_days
+cb695d9a_8,pii_detection,pass,privacy.pii,privacy,2026-04-05T09:55:40.556705,7.27391242980957,,,,,True,,,3,"['email', 'phone_us', 'ssn']",Contact [email redacted] or call [phone redacted]. SSN: ***-**-****,
+cb695d9a_9,encryption,pass,privacy.encryption,privacy,2026-04-05T09:55:40.580443,23.682355880737305,,,,Sensitive data,,True,Sensitive data,,,,
+cb695d9a_10,compliance,pass,privacy.compliance,privacy,2026-04-05T09:55:40.596548,16.04938507080078,,,read,,,,,,,,90
