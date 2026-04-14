@@ -1,0 +1,413 @@
+{
+  "summary": {
+    "total": 67,
+    "passed": 67,
+    "failed": 0,
+    "pass_rate": 100.0,
+    "timestamp": "2026-04-05T01:04:51.440953"
+  },
+  "results": [
+    {
+      "module": "core.tracer",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:48.566134"
+    },
+    {
+      "module": "core.span",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:48.566232"
+    },
+    {
+      "module": "core.context",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:48.566251"
+    },
+    {
+      "module": "core.decorators",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:48.566345"
+    },
+    {
+      "module": "core.context_manager",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:48.566384"
+    },
+    {
+      "module": "core.sampling",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:48.567288"
+    },
+    {
+      "module": "core.types",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:48.567324"
+    },
+    {
+      "module": "config.settings",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:48.567369"
+    },
+    {
+      "module": "config.validators",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:48.568298"
+    },
+    {
+      "module": "instrumentation.base",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:48.568320"
+    },
+    {
+      "module": "instrumentation.llm",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:48.568331"
+    },
+    {
+      "module": "instrumentation.frameworks",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:48.574007"
+    },
+    {
+      "module": "instrumentation.agents",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:48.577831"
+    },
+    {
+      "module": "instrumentation.retrieval",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:48.577854"
+    },
+    {
+      "module": "instrumentation.tools",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:48.580251"
+    },
+    {
+      "module": "telemetry.tokens.counter",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:48.771188"
+    },
+    {
+      "module": "telemetry.tokens.estimator",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:48.772510"
+    },
+    {
+      "module": "telemetry.tokens.streaming",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:48.773929"
+    },
+    {
+      "module": "telemetry.cost.estimator",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:48.774028"
+    },
+    {
+      "module": "telemetry.cost.pricing_table",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:48.775210"
+    },
+    {
+      "module": "telemetry.cost.aggregator",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:48.776751"
+    },
+    {
+      "module": "telemetry.metrics.latency",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:48.784052"
+    },
+    {
+      "module": "telemetry.metrics.throughput",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:48.784101"
+    },
+    {
+      "module": "telemetry.metrics.error_rate",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:48.784126"
+    },
+    {
+      "module": "telemetry.anomaly.detector",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:48.812796"
+    },
+    {
+      "module": "telemetry.anomaly.baselines",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:48.814423"
+    },
+    {
+      "module": "telemetry.environment",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.219288"
+    },
+    {
+      "module": "intelligence.feedback",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.219371"
+    },
+    {
+      "module": "intelligence.evaluation",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.219389"
+    },
+    {
+      "module": "intelligence.annotation",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.240360"
+    },
+    {
+      "module": "intelligence.conversation",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.247128"
+    },
+    {
+      "module": "intelligence.quality",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.252665"
+    },
+    {
+      "module": "prompt_management.registry",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.258456"
+    },
+    {
+      "module": "prompt_management.versioning",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.260548"
+    },
+    {
+      "module": "prompt_management.ab_testing",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.262424"
+    },
+    {
+      "module": "prompt_management.experiment",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.265342"
+    },
+    {
+      "module": "prompt_management.playground",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.267877"
+    },
+    {
+      "module": "security.injection_detector",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.273364"
+    },
+    {
+      "module": "security.output_guardrail",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.280133"
+    },
+    {
+      "module": "security.guardrail_chain",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.280163"
+    },
+    {
+      "module": "security.output_filter",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.283720"
+    },
+    {
+      "module": "security.domain_enforcer",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.286561"
+    },
+    {
+      "module": "security.red_team",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.289316"
+    },
+    {
+      "module": "privacy.pii_detector",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.289387"
+    },
+    {
+      "module": "privacy.detection.patterns",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.292925"
+    },
+    {
+      "module": "privacy.redactor",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.293012"
+    },
+    {
+      "module": "privacy.redaction.strategies",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.294827"
+    },
+    {
+      "module": "privacy.redaction.hashing",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.302804"
+    },
+    {
+      "module": "privacy.encryption",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.400001"
+    },
+    {
+      "module": "privacy.compliance.retention",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.403882"
+    },
+    {
+      "module": "privacy.compliance.audit",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.404697"
+    },
+    {
+      "module": "exporters.console",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.412066"
+    },
+    {
+      "module": "exporters.json",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.412745"
+    },
+    {
+      "module": "exporters.batch",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.414959"
+    },
+    {
+      "module": "exporters.finetune",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.418198"
+    },
+    {
+      "module": "exporters.json.rotation",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.419560"
+    },
+    {
+      "module": "exporters.json.compression",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.420578"
+    },
+    {
+      "module": "exporters.database",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.428555"
+    },
+    {
+      "module": "exporters.otel",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.430885"
+    },
+    {
+      "module": "exporters.cloud",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.433876"
+    },
+    {
+      "module": "exporters.webhook",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.435026"
+    },
+    {
+      "module": "multimodal",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.435076"
+    },
+    {
+      "module": "router",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.435089"
+    },
+    {
+      "module": "cache",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.435094"
+    },
+    {
+      "module": "plugins",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.437660"
+    },
+    {
+      "module": "cli",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.438699"
+    },
+    {
+      "module": "utils",
+      "status": "pass",
+      "details": "",
+      "timestamp": "2026-04-05T01:04:51.440001"
+    }
+  ]
+}
