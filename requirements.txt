@@ -1,0 +1,25 @@
+# Core dependencies
+tiktoken>=0.5.0
+
+# Optional dependencies for full functionality
+# Uncomment as needed:
+
+# For database export
+# asyncpg>=0.28.0
+
+# For OpenAI integration
+# openai>=1.0.0
+
+# For Anthropic integration
+# anthropic>=0.18.0
+
+# For LangChain integration
+# langchain>=0.1.0
+
+# For statistical significance testing
+# scipy>=1.10.0
+
+# Development dependencies
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+jupyter>=1.0.0
