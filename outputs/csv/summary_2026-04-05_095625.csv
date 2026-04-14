@@ -1,0 +1,9 @@
+functionality,description,total_tests,passed,failed,pass_rate
+core,"Core tracing functionality (tracer, span, decorators)",4,4,0,100.00%
+telemetry,"Telemetry and metrics (tokens, cost, latency)",4,4,0,100.00%
+privacy,"Privacy features (PII detection, redaction, encryption)",3,3,0,100.00%
+security,"Security features (injection detection, guardrails)",3,3,0,100.00%
+intelligence,"Intelligence features (feedback, evaluation)",2,2,0,100.00%
+prompt_management,"Prompt management (registry, versioning, A/B testing)",3,3,0,100.00%
+exporters,"Data exporters (JSON, CSV, database)",2,2,0,100.00%
+api_integration,"API integrations (Azure OpenAI, Gemini, etc.)",2,2,0,100.00%
