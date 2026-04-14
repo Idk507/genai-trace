@@ -1,0 +1,28 @@
+{
+  "azure_openai": {
+    "status": "success",
+    "details": {
+      "prompt": "What is the capital of France? Answer in one sentence.",
+      "response": "The capital of France is Paris.",
+      "tokens": {
+        "prompt": 12,
+        "response": 7
+      },
+      "cost": 0.00078
+    }
+  },
+  "gemini": {
+    "status": "failed",
+    "details": {
+      "error": "400 API key expired. Please renew the API key. [reason: \"API_KEY_INVALID\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"generativelanguage.googleapis.com\"\n}\n, locale: \"en-US\"\nmessage: \"API key expired. Please renew the API key.\"\n]"
+    }
+  },
+  "features": [
+    "azure_openai_basic_chat",
+    "injection_detection",
+    "pii_detection",
+    "pii_redaction",
+    "feedback_recording"
+  ],
+  "timestamp": "2026-04-05T01:06:33.243643"
+}
