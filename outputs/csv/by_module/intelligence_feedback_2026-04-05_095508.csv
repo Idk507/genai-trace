@@ -1,0 +1,2 @@
+test_id,name,status,module,functionality,timestamp,duration_ms,message,error,detail.avg_rating,detail.count
+f2223b36_14,feedback,pass,intelligence.feedback,intelligence,2026-04-05T09:54:57.006171,0.16427040100097656,,,3.5,2
