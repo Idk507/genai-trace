@@ -1,0 +1,2 @@
+test_id,name,status,module,functionality,timestamp,duration_ms,message,error,detail.count,detail.estimated,detail.text
+f2223b36_4,token_counting,pass,telemetry.tokens,telemetry,2026-04-05T09:54:56.865878,235.4130744934082,,,8,8,"Hello, how are you doing today?"
