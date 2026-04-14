@@ -1,0 +1,2 @@
+test_id,name,status,module,functionality,timestamp,duration_ms,message,error,detail.cost,detail.session_total
+f464b0dc_5,cost_estimation,pass,telemetry.cost,telemetry,2026-04-05T09:56:14.082981,2.0227432250976562,,,"{'input_cost_usd': 0.03, 'output_cost_usd': 0.03, 'cache_cost_usd': 0.0, 'total_cost_usd': 0.06}",0.08
