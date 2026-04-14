@@ -1,0 +1,2 @@
+test_id,name,status,module,functionality,timestamp,duration_ms,message,error,detail.rendered,detail.template
+f2223b36_16,prompt_registry,pass,prompt_management.registry,prompt_management,2026-04-05T09:54:57.042188,16.175031661987305,,,Hello World!,Hello {{name}}!
