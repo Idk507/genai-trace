@@ -1,0 +1,2 @@
+test_id,name,status,module,functionality,timestamp,duration_ms,message,error,detail.has_pii,detail.pii_count,detail.pii_types,detail.redacted
+f2223b36_8,pii_detection,pass,privacy.pii,privacy,2026-04-05T09:54:56.943052,16.271591186523438,,,True,3,"['email', 'phone_us', 'ssn']",Contact [email redacted] or call [phone redacted]. SSN: ***-**-****
