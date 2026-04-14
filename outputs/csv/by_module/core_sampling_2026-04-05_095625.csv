@@ -1,0 +1,2 @@
+test_id,name,status,module,functionality,timestamp,duration_ms,message,error,detail.actual_rate,detail.base_rate
+f464b0dc_3,sampling,pass,core.sampling,core,2026-04-05T09:56:13.847331,1.4226436614990234,,,0.45,0.5
