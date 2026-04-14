@@ -1,0 +1,4 @@
+test_id,name,status,module,functionality,timestamp,duration_ms,message,error,detail.injection_detected,detail.injection_score,detail.invalid_check,detail.safe_is_injection,detail.safe_passed,detail.unsafe_passed,detail.unsafe_violations,detail.valid_check
+f2223b36_11,injection_detection,pass,security.injection,security,2026-04-05T09:54:56.999857,13.30423355102539,,,True,0.95,,False,,,,
+f2223b36_12,guardrails,pass,security.guardrails,security,2026-04-05T09:54:57.000121,0.22602081298828125,,,,,,,True,False,['pii_in_output'],
+f2223b36_13,domain_enforcer,pass,security.domain_enforcer,security,2026-04-05T09:54:57.005966,5.81812858581543,,,,,False,,,,,True
