@@ -1,0 +1,2 @@
+test_id,name,status,module,functionality,timestamp,duration_ms,message,error
+f2223b36_20,batch_exporter,fail,exporters.batch,exporters,2026-04-05T09:54:57.061856,10.897636413574219,,'CircularBuffer' object has no attribute 'get_all'
