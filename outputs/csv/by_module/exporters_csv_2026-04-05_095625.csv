@@ -1,0 +1,2 @@
+test_id,name,status,module,functionality,timestamp,duration_ms,message,error,detail.config_dir,detail.separate_by_type
+f464b0dc_19,csv_exporter,pass,exporters.csv,exporters,2026-04-05T09:56:14.253662,1.6138553619384766,,,outputs\test_csv,True
