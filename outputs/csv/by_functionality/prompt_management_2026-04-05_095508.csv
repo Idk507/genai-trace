@@ -1,0 +1,4 @@
+test_id,name,status,module,functionality,timestamp,duration_ms,message,error,detail.rendered,detail.template,detail.variant
+f2223b36_16,prompt_registry,pass,prompt_management.registry,prompt_management,2026-04-05T09:54:57.042188,16.175031661987305,,,Hello World!,Hello {{name}}!,
+f2223b36_17,ab_testing,pass,prompt_management.ab_testing,prompt_management,2026-04-05T09:54:57.043929,1.692056655883789,,,,,B
+f2223b36_18,playground,pass,prompt_management.playground,prompt_management,2026-04-05T09:54:57.049997,6.026506423950195,,,Hello {Test}!,,
